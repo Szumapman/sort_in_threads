@@ -1,0 +1,5 @@
+# Zadanie domowe # 3 (Moduł 2 web)
+## Pierwsza część dot. wątków
+Stwórz program służący do pracy z folderem "Bałagan", który będzie sortował pliki w podanym folderze według rozszerzeń z wykorzystaniem kilku wątków. Przyspiesz przetwarzanie dużych katalogów z dużą liczbą podfolderów i plików, przechodząc równoległe przez wszystkie foldery w osobnych wątkach. Najbardziej czasochłonnym zadaniem będzie przeniesienie pliku i utworzenie listy plików w folderze (iterowanie po całej zawartości katalogu). W celu przyspieszenia transfer plików można zrobić w osobnym wątku lub puli wątków. Tak będzie wygodniej, ponieważ wynik tej operacji nie będzie przetwarzany w aplikacji i nie trzeba będzie zbierać żadnych wyników. Z kolei chcąc przyspieszyć przechodzenie przez katalog z dużą liczbą podkatalogów, każdy z tych podkatalogów można przetwarzać w osobnym wątku lub przekazać przetwarzanie do puli wątków.
+
+### To rozwiązanie bazuje na zadaniu z modułu 1 dostępnym tu: [GoIT_homeworks_6_zadanie_domowe](https://github.com/Szumapman/GoIT_homeworks_6_zadanie_domowe)
